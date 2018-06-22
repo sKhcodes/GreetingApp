@@ -12,6 +12,6 @@
    <ion-input type="text"[ngModel]="personName"></ion-input>
  </ion-item>
 
- <button ion-button block clear>Show Greeting</button>
+ <button ion-button block clear (click)="showGreeting(personName)">Show Greeting</button>
 
 </ion-content>

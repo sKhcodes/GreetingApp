@@ -8,7 +8,7 @@ import { NavController } from 'ionic-angular';
 export class HomePage {
 
   personName: string;
-  constructor(public navCtrl: NavController) {
+  constructor(public navCtrl: NavController) {}
 
     showGreeting(name: string) {
       console.log(name);
@@ -16,4 +16,3 @@ export class HomePage {
     }
   }
 
-}
